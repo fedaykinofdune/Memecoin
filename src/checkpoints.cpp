@@ -28,7 +28,6 @@ namespace Checkpoints
             boost::assign::map_list_of
             		(     0, uint256("0xe8a2eaf89eb794aeee1ab448053e3badbecc63d45b638633edcfdd60a02100c4"))
 			(     1, uint256("0xb9fe56beca6d379c4af46e2817c6eaa9d3431dba9157ca77dcac58ae1b4df9e8"))
-			(     5, uint256("0x38bffe92ab73ba46b601ffa0e87188c9a2c807da38172b14d2360af09df5d889"))
 			(     38, uint256("0xd980e61ece174baf76f7667ccb88344019f5988f22141990c53c47a17cba0bfc"))
 			(     20000, uint256("0xdedca5aa154c1ec0eed994930fe2dc606a0a4a7b992c657822bf70dab865ffd9"))
 			(     33333, uint256("0x47237006e77e567d5e6baf3cc40356fa10474efef99edcbfb065a5455e103227"))
@@ -60,7 +59,8 @@ namespace Checkpoints
 			(     316317, uint256("0x33cefcdb034889ec6af5593943fcc3b89a4c3869e27e7f3b1a5b16d3c6ed856a"))
 			(     316326, uint256("0xc614f8ca20f56eb9717e1b455c72addb2b0ab6bf5f89cef2121b8f435ca1ff50"))
 			(     316404, uint256("0xd5ac56759e398ecf3040d2e6415df642416260265c3e9ba1ceae2d2ff991117f"))
-			
+			(     350000, uint256("0x02ced1ccc91348c82a351570e2a01c97abfc0baf822049dbf376b860a227f24c"))
+			(     369683, uint256("0x6ce5f1280af3ca78e271097ab28425ea8fcf91c993ce62f00cb7532a4625a39f"))
             ;
 
 
