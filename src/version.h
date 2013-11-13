@@ -33,7 +33,7 @@ extern const std::string CLIENT_DATE;
 // network protocol versioning
 //
 
-static const int PROTOCOL_VERSION = 70001;
+static const int PROTOCOL_VERSION = 60002;
 
 // earlier versions not supported as of Feb 2012, and are disconnected
 static const int MIN_PROTO_VERSION = 60001;
@@ -43,8 +43,8 @@ static const int MIN_PROTO_VERSION = 60001;
 static const int CADDR_TIME_VERSION = 31402;
 
 // only request blocks from nodes outside this range of versions
-static const int NOBLKS_VERSION_START = 10000;
-static const int NOBLKS_VERSION_END = 60000;
+static const int NOBLKS_VERSION_START = 69000;
+static const int NOBLKS_VERSION_END = 99000;
 
 // BIP 0031, pong message, is enabled for all versions AFTER this one
 static const int BIP0031_VERSION = 60000;
