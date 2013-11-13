@@ -846,7 +846,7 @@ int64 nSubsidy = 100 * COIN;
         nSubsidy = 250 * COIN;
     }
 	
-	nSubsidy >>= (nHeight / 1051200); // Approx 1 million blocks per year
+	nSubsidy >>= (nHeight / 551200); // Approx 1 million blocks per year
 
     return nSubsidy + nFees;
 }
